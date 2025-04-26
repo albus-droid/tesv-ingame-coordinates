@@ -1,4 +1,4 @@
-# Skyrim Memory Reader
+# The Elder Scrolls V: In-game coordinate scraper
 
 This Python script reads real-time in-game coordinates (X, Y) and the "Tamriel" state from the memory of the Skyrim Special Edition (SkyrimSE.exe) process. It outputs data in JSON format, including timestamps, facilitating easy data collection and analysis for game telemetry, mod development, or educational purposes.
 
@@ -19,7 +19,7 @@ pip install pymem
 2. Execute the script in a terminal or command prompt:
 
 ```bash
-python skyrim_memory_reader.py
+python skyrim-coordinates.py
 ```
 
 ## Output
